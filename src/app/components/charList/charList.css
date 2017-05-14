@@ -1,0 +1,19 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.search-input-container{
+  width: 100%;
+}
+
+.search-tittle{
+  color: white;
+  text-shadow: -2px 0 #3c3c3c, 0 2px #3c3c3c, 2px 0 #3c3c3c, 0 -2px #3c3c3c;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+}
